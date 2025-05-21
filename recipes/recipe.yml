@@ -47,7 +47,7 @@ modules:
     system:
       # If no repo information is specified, Flathub will be used by default
       install:
-        - org.gnome.Epiphany
+        - org.mozilla.firefox
         - org.gnome.Loupe
         - org.gnome.Showtime
         - org.gnome.Papers
