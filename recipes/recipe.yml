@@ -27,7 +27,7 @@ modules:
       - 6670 # Bluetooth Battery Meter
       - 1319 # GSConnect
     uninstall:
-      - 7364 # background logo
+      - Background Logo # background logo
 
   - type: rpm-ostree
     repos:
