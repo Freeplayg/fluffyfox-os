@@ -5,9 +5,6 @@ enabled-extensions=['pano@elhan.io', 'AlphabeticalAppGrid@stuarthayhurst', 'appi
 gtk-enable-primary-paste=false
 show-battery-percentage=true
 
-[org.gnome.SessionManager]
-auto-save-session=true
-
 [org.gnome.desktop.app-folders.folder]
 apps=['org.gnome.DiskUtility.desktop', 'yelp.desktop', 'org.gnome.Tour.desktop']
 
