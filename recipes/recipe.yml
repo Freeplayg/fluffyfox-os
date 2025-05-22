@@ -24,7 +24,6 @@ modules:
       - 4222 # Hot Edge (move overview hot edge to bottom)
       - 5985 # Do Not Disturb While Screen Sharing Or Recording
       - 4269 # Alphabetical App Grid
-      - 5278 # Pano - clipboard Manager
 
   - type: rpm-ostree
     repos:
