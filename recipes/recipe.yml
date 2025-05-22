@@ -25,6 +25,7 @@ modules:
       - 5985 # Do Not Disturb While Screen Sharing Or Recording
       - 4269 # Alphabetical App Grid
       - 6670 # Bluetooth Battery Meter
+      - 1319 # GSConnect
 
   - type: rpm-ostree
     repos:
