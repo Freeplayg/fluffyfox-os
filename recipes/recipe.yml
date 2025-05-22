@@ -24,6 +24,7 @@ modules:
       - 4222 # Hot Edge (move overview hot edge to bottom)
       - 5985 # Do Not Disturb While Screen Sharing Or Recording
       - 4269 # Alphabetical App Grid
+      - 6670 # Bluetooth Battery Meter
 
   - type: rpm-ostree
     repos:
@@ -56,6 +57,10 @@ modules:
         - org.gnome.eog
         - org.gnome.Evince
     user: {} # Also add Flathub user repo, but no user packages
+
+  - type: script
+    scripts:
+      - install-pano.sh
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
 
