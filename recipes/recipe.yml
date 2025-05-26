@@ -33,7 +33,8 @@ modules:
 
   - type: rpm-ostree
     repos:
-      - https://copr.fedorainfracloud.org/coprs/ublue-os/bluefin/repo/fedora-%OS_VERSION%/ublue-os-bluefin-fedora-%OS_VERSION%.repo
+      copr:
+        - ublue-os/packages
     install:
       - bluefin-backgrounds
       - libgda # for pano
