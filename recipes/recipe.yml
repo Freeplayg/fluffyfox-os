@@ -31,10 +31,12 @@ modules:
     include:
       - zz1-main.gschema.override
 
-  - type: rpm-ostree
+  - type: dnf
     repos:
       copr:
         - ublue-os/packages
+
+  - type: rpm-ostree
     install:
       - bluefin-backgrounds
       - libgda # for pano
