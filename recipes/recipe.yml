@@ -35,8 +35,6 @@ modules:
     repos:
       copr:
         - ublue-os/packages
-
-  - type: rpm-ostree
     install:
       - bluefin-backgrounds
       - libgda # for pano
