@@ -25,14 +25,6 @@ modules:
     repos:
       copr:
         - ublue-os/packages
-      files:
-        - https://negativo17.org/repos/fedora-steam.repo
-    install:
-      packages:
-        - install-weak-deps: false
-          packages:
-            - steam
-            - kernel-modules-extra
         
   - type: rpm-ostree
     install:
