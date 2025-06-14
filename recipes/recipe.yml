@@ -58,6 +58,8 @@ modules:
         - org.gnome.Evince
     user: {} # Also add Flathub user repo, but no user packages
 
+  - from-file: modules/steam-module.yml
+
   - type: script
     scripts:
       - install-pano.sh
