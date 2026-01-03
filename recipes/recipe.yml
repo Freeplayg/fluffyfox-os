@@ -19,9 +19,19 @@ modules:
 
   - type: dnf
     repos:
-      copr: []
+      copr:
+        - avengemedia/dms
     install:
-      packages: []
+      packages:
+        - niri
+        - dms
+        - mako
+        - swaybg
+        - swayidle
+        - xwayland-satellite
+        - xdg-desktop-portal-gtk
+        - xdg-desktop-portal-gnome
+        - gnome-keyring
     remove:
       packages:
         # example: removing firefox (in favor of the flatpak)
