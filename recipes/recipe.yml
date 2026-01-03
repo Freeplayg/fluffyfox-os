@@ -19,17 +19,18 @@ modules:
 
   - type: dnf
     repos:
-      copr:
-        - avengemedia/dms
+      copr: []
     install:
       packages:
         - niri
-        - dms
         - mako
         - xwayland-satellite
         - xdg-desktop-portal-gtk
         - xdg-desktop-portal-gnome
         - gnome-keyring
+        - curl 
+        - git 
+        - python3
     remove:
       packages:
         # example: removing firefox (in favor of the flatpak)
@@ -38,8 +39,8 @@ modules:
         - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
 
   - type: script
-    scripts:
-      - setup.sh
+    snippets:
+      - "curl -sSL https://raw.githubusercontent.com/debuggyo/Exo/main/exoinstall.py -o exoinstall.py && python3 exoinstall.py" # exo setup
 
   - type: default-flatpaks
     configurations:
