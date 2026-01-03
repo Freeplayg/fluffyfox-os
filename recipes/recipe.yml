@@ -26,8 +26,6 @@ modules:
         - niri
         - dms
         - mako
-        - swaybg
-        - swayidle
         - xwayland-satellite
         - xdg-desktop-portal-gtk
         - xdg-desktop-portal-gnome
